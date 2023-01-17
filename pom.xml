@@ -9,10 +9,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.test</groupId>
-	<artifactId>lybl</artifactId>
+	<artifactId>jpa-order-management</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>lybl</name>
-	<description>Demo project for Spring Boot</description>
+	<name>jpa-order-management</name>
+	<description>Demo project for Spring Boot with JPA</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
