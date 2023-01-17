@@ -1,0 +1,21 @@
+INSERT INTO orders (Name, status, id, created, completed) VALUES ('Ali', '1', '1', '2022-01-01', null);
+INSERT INTO orders (Name, status, id, created, completed) VALUES ('Beatriz', '0', '2', '2022-02-01', null);
+INSERT INTO orders (Name, status, id, created, completed) VALUES ('Charles', '2', '3', '2022-03-01', '2022-10-01');
+INSERT INTO orders (Name, status, id, created, completed) VALUES ('Eric', '1', '4', '2022-04-01', null);
+INSERT INTO orders (Name, status, id, created, completed) VALUES ('Fatima', '0', '5', '2022-05-01', null);
+INSERT INTO orders (Name, status, id, created, completed) VALUES ('Gabriel', '2', '6', '2022-06-01', '2022-10-01');
+INSERT INTO orders (Name, status, id, created, completed) VALUES ('Hanna', '1', '7', '2022-07-01', null);
+INSERT INTO orders (Name, status, id, created, completed) VALUES ('Sam', '0', '8', '2022-08-01', null);
+INSERT INTO orders (Name, status, id, created, completed) VALUES ('Alice', '2', '9', '2022-09-01', '2022-10-01');
+
+INSERT INTO items (id, cost, name, order_id, quantity) VALUES (1, 10, 'Shampoo', '1', 2);
+INSERT INTO items (id, cost, name, order_id, quantity) VALUES (2, 2, 'Candy', '1', 3);
+INSERT INTO items (id, cost, name, order_id, quantity) VALUES (3, 5, 'Soap', '2', 1);
+INSERT INTO items (id, cost, name, order_id, quantity) VALUES (4, 54, 'Polish', '3', 5);
+INSERT INTO items (id, cost, name, order_id, quantity) VALUES (5, 4, 'Toothbrush', '5', 10);
+INSERT INTO items (id, cost, name, order_id, quantity) VALUES (6, 9, 'Eggs', '7', 9);
+INSERT INTO items (id, cost, name, order_id, quantity) VALUES (7, 21, 'Flour', '9', 8);
+INSERT INTO items (id, cost, name, order_id, quantity) VALUES (8, 11, 'Spoons', '4', 2);
+INSERT INTO items (id, cost, name, order_id, quantity) VALUES (9, 12, 'Sugar', '6', 2);
+INSERT INTO items (id, cost, name, order_id, quantity) VALUES (10, 100, 'Conditioner', '8', 3);
+INSERT INTO items (id, cost, name, order_id, quantity) VALUES (11, 4, 'Lotion', '7', 7);
